@@ -1,0 +1,37 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon {
+  border-radius: 5px;
+}
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 12px;
+  font-weight: bold;
+}
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.duration {
+  color: white;
+  font-size: 12px;
+}
+
+.button {
+  height: 5px;
+  width: 5px;
+}
